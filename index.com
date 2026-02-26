@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ISA MIT Student Chapter</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../CSS/home.css" />
+  <link rel="stylesheet" href="../CSS/footer.css" />
+</head>
+<body>
+
+     <!-- ========== NAVBAR =============  -->
+
+<nav class="navbar">
+    <a href="index.html">
+        <img src="../bg_img.jpg" alt="Left Logo" class="logo">
+    </a>
+
+    <ul class="nav-menu">
+        <li class="nav-item"><a href="home.html" class="active">Home</a></li>
+        <li class="nav-item"><a href="pastevent.html">Past Events</a></li>
+        <li class="nav-item"><a href="upcomingEvebts_2.html">Upcoming Events</a></li>
+        <li class="nav-item"><a href="sponsors.html">Sponsors</a></li>
+        <li class="nav-item"><a href="labFacilities.html">Lab Facilities</a></li>
+        <li class="nav-item"><a href="registration.html">Register</a></li>
+    </ul>
+
+    <a href="special-page.html">
+        <img src="../MIT.png" alt="Right Logo" class="logo">
+    </a>
+</nav>
+
+
+<!-- ======= body sections =========-->
+
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Innovate, Collaborate, Create</h1>
+      <p style="text-align: justify ;">
+        Join International Society of Automation and connect with like-minded students,
+        explore cutting-edge technologies.
+        Connect with Industrial Experts, complete courses helping you accelerate your career.
+        Connect with leaders and secure placements at top firms .
+        Gain mentorship directly from industrial automation pioneers in South India, bypassing generic job
+        portals.  
+      </p>
+      <button id="memberBtn">Become a Member</button>
+    </div>
+  </section>
+
+  <!-- INFO SECTION -->
+<div class="info-wrapper">
+  <section class="info-image-left">
+    <img src="../ISA_NEW_LOGO-removebg-preview.png" alt="Students working">
+  </section>
+
+  <section class="info">
+    <h1>ISA MIT STUDENT CHAPTER</h1>
+    <p id="about-isa-mit">
+      The official student body of MIT Campus, Anna University, under
+      the esteemed ISA South India Section.
+      A dynamic platform for students passionate about Automation,
+      Instrumentation, Control Systems, and Industrial Technologies.
+      The ISA-MIT Student Chapter is a vibrant community for students passionate
+      about technology, design, and entrepreneurship. We provide a platform
+      for learning, sharing ideas, and building impactful projects together.
+      From techincal workshops to hackathons and guest lectures, we empower
+      our members to grow, innovate, and make a difference.
+    </p>
+  </section>
+</div>
+
+
+  <!-- ============ FOOTER ============ -->
+<footer class="site-footer" id="siteFooter">
+
+  <div class="footer-container">
+
+    <!-- LEFT -->
+    <div class="footer-about">
+      <h3>ISA MIT Student Chapter</h3>
+      <p>
+        Empowering future automation engineers through technical learning,
+        industry exposure, and hands-on innovation at
+        <strong>Madras Institute of Technology</strong>.
+      </p>
+
+      <div class="social-links">
+        <a href="https://www.instagram.com/isa_mit_student_chapter/?utm_source=ig_web_button_share_sheet" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mit-isa-south-india-section-student-chapter-277794348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.isa.org/" target="_blank">
+          <i class="fa-solid fa-globe"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- CENTER -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li>
+          <a href="https://www.auegov.ac.in/Department/instru" target="_blank">
+            <i class="fa-solid fa-microchip"></i>
+            Instrumentation Dept – MIT
+          </a>
+        </li>
+        <li>
+          <a href="https://www.isa.org/" target="_blank">
+            <i class="fa-solid fa-gear"></i>
+            ISA Global
+          </a>
+        </li>
+        <li>
+          <a href="www.annauniv.edu/" target="_blank">
+            <i class="fa-solid fa-university"></i>
+            Anna University
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="footer-contact">
+      <h4>Visit Us</h4>
+
+      <div class="map-card">
+        <i class="fa-solid fa-location-dot map-icon"></i>
+        <div>
+          <p class="campus-name">Madras Institute of Technology</p>
+          <p class="campus-address">
+            Anna University, Chromepet<br>
+            Chennai – 600044
+          </p>
+
+          <a class="map-btn"
+             href="https://maps.app.goo.gl/iWRGvSSsAQXDgpNd9"
+             target="_blank">
+            <i class="fa-solid fa-map-location-dot"></i>
+            Open Maps
+          </a>
+        </div>
+      </div>
+
+      <p class="help-line">
+        <i class="fa-solid fa-phone-volume"></i>
+        +91 94447 92596
+      </p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 ISA MIT Student Chapter. All rights reserved.
+  </div>
+
+</footer>
+
+
+  <script src="../JS/home.js"></script>
+</body>
+</html>
